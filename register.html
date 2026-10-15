@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+
+
+</head>
+<body>
+
+
+
+<ul class="nav justify-content-end">
+  <h5>Code Academy</h5>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Courses</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Register</a>
+  </li>
+  
+</ul>
+
+
+<div class="container">
+    <h2>Student Registration</h2>
+
+    <form action="/students" method="POST">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input
+                name="name"
+                
+                type="text"
+                id="stdName"
+                placeholder="Enter your full name" 
+                required
+                
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input
+                name="email"
+                type="email"
+                id="stdemail"
+                placeholder="Enter your email"
+                required
+            >
+        </div>
+
+         <div class="form-group">
+            <label for="email">password</label>
+            <input
+                name="password"
+                type="password"
+                id="stdemail"
+                placeholder="Enter your password"
+                required
+            >
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+                name="phone"
+                type="tel"
+                id="stdphone"
+                placeholder="Enter your phone number"
+            >
+        </div>
+
+        <div class="form-group">
+           <label for="age">Age</label>
+           <input type="number" name="age" id="stdage" placeholder="Age" max="18" min="8"> 
+              <label for="subject">Gender</label>
+            <select id="subject" >
+                <option>select gender</option>
+                <option>Man</option>
+                <option>girl</option>
+                
+            </select>
+
+                
+   <label for="subject">Select course</label>
+            <select id="stdcourse" name="course">
+              <option>select course</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>java script</option>
+                
+            </select>
+
+        </div>
+
+        <div class="form-group">
+            <label for="message">Notes</label>
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Write your notes..."
+            ></textarea>
+        </div>
+
+        <button class="mm" type="submit" id="btnrig">Register Now</button>
+    </form>
+</div>
+
+
+  
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div>
+        <h1>student dashboard</h1>
+        <h2 id="welcome">welcome</h2>
+        <p>email:<span id="eamil"></span></p>
+         <p>name:<span id="name"></span></p>
+          <p>phone:<span id="phone"></span></p>
+           <p>age:<span id="age"></span></p>
+            <p>course:<span id="course"></span></p>
+    </div>
+    <a href="/logout"><button>log out</button></a>
+
+    <script>
+        fetch("/me")
+    </script>
+</body>
+</html>

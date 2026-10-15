@@ -1,0 +1,288 @@
+.but1{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    color: white;
+}
+.but2{
+    background-color: green;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    color: white;
+    margin-left: 5px;
+}
+button{
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background:transparent;
+    color: rgb(247, 191, 123);
+    cursor: pointer;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+    
+}
+button:hover{
+    border: none;
+    background: #009688;
+    transition: 0.5s;
+    
+}
+    
+
+.nav-link{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   position: relative;
+   
+}
+.nav-link2{
+    background-color:deepskyblue ;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(4, 221, 250);
+    text-transform: uppercase;
+}
+.nav-link::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.navbar-nav mr-auto{
+    background-color: white;
+    
+}
+navbar-nav mr-auto{
+    background-color: white;
+}
+.collapse navbar-collapse{
+    background-color: white;
+}
+
+
+.navbar-brand{
+    color: rgb(4, 221, 250);
+    padding: 10px;
+    border: 2px solid chartreuse;
+    border-radius: 15px;
+    
+}
+div.main section{
+    margin-left: 70px;
+    background-color: black;
+}
+h2{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: -400px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.p1{
+    text-align: center;
+    margin-left: 400px;
+    background-color: rgb(116, 39, 204);
+    color: white;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    height: 30%;
+    margin-top: 60px;
+    
+    
+}
+.footer{
+    background-color: rgb(143, 114, 80);
+    margin-top: 290px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    height: 170px;
+}
+.dd{
+    width: 200px;
+    padding: 5px;
+}
+
+
+.zed{
+    margin-left: 800px;
+    margin-top: -90px;
+}
+.zed button{
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    background-image: linear-gradient(to left,#C4E538,#009432,#C4E538);
+    border: none;
+    margin-right: -30px;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-toggler{
+    background-color: red;
+}
+
+.main{
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.main h3{
+    margin-left: 150px;
+}
+.main h1{
+    margin-left: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: initial;
+    font-size: 70px;
+}
+.main button{
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    width: 150px;
+    margin-left: 130px;
+}
+.main img{
+    margin-left: 500px;
+    margin-top: -400px;
+    
+}
+.btn-primary{
+    width: 220px;
+    
+    
+    padding: 5px;
+}
+.card-text{
+    color: #009432;
+}
+.container{
+    padding: 20px;
+    margin-left: 400px;
+    
+}
+.card{
+    margin-top: 10px;
+    border-radius: 15px;
+    
+    
+    
+}
+.nav{
+    background-color: black;
+    padding: 10px;
+}
+h5{
+    color: white;
+    margin-left: -100px;
+}
+
+
+
+
+.container {
+    background: #fff;
+    padding: 30px;
+    width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin-left: 580px;
+    margin-top: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -400px;
+    color: deepskyblue;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #555;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.3);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.mm {
+    width: 100%;
+    padding: 12px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mm:hover {
+    background: #357abd;
+}
